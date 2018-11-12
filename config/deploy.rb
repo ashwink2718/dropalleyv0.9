@@ -4,7 +4,7 @@ lock "~> 3.11.0"
 set :application, "dropalleyv0.9"
 set :repo_url, "https://github.com/ashwink2718/dropalleyv0.9.git"
 
-set :deploy_to, "/home/deploy/dropalleyv0.7.5"
+set :deploy_to, "/home/deploy/dropalleyv0.9"
 set :linked_files, %w{config/master.key}
 
 append :linked_files, "config/database.yml"

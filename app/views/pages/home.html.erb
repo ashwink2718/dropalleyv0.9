@@ -1,18 +1,20 @@
 <div class="row header_bg">
 
   <div class="col col-md-12 mt-5">
-  	<h4 align="right" class="mr-4"><%= link_to "Partners", new_partner_path, class: "partner_link" %></h4>
-  	<h1 align="center" class="mt-5 header_text">DROPALLEY</h1>  	
-  	<h1 align="center" class="mt-5 header_text">Give your customers the most personalized online shopping experiene</h1>
+    <h4 align="right" class="mr-4"><%= link_to "Partners", new_partner_path, class: "partner_link" %></h4>
+    <h2 align="center">
+    	<%= link_to image_tag("logo.png", class: "img-fluid"), root_path %>	
+    </h2>   
+    <h1 align="center" class="header_text">Give your customers the most personalized online shopping experiene</h1>
 
-  	<div class="col-md-2 offset-md-5 mt-4">
-  		<%= link_to "Try & Buy Now", new_partner_path, class: "btn btn-block btn-lg btn_main" %>
+    <div class="col-md-2 offset-md-5 mt-4">
+  		<%= link_to "Try & Buy Now", "https://www.google.com", class: "btn btn_main btn-block btn-lg" %>
   	</div>
 
-  </div>	  
+
+  </div>    
   
 </div>
-
 
 <!-- Section 1 -->
 
@@ -153,17 +155,18 @@
 <div class="row header_bg">
 
   <div class="col col-md-12 mt-5">
-  	<h1 align="center" class="mt-5 header_text">What are you waiting for? Be part of the e-commerce revolution.</h1>
+    <h1 align="center" class="mt-5 header_text">What are you waiting for? Be part of the e-commerce revolution.</h1>
+  </div>  
 
-  	<div class="col-md-2 offset-md-5 mt-4">
-  		<%= link_to "Try & Buy Now", "https://www.google.com", class: "btn btn_main btn-block btn-lg" %>
-  	</div>
-  </div>	
+  <div class="col-md-2 offset-md-5">
+  	<%= link_to "Try & Buy Now", "https://www.google.com", class: "btn btn_main btn-block btn-lg" %>	
+  </div>
+
 
   <div class="col-md-12 header_text">
-  	<h4 align="center"><%= link_to "Terms & Conditions", terms_path %> and <%= link_to "Privacy Policy", terms_path %></h4>
+    <h4 align="center"><%= link_to "Terms & Conditions", terms_path %> and <%= link_to "Privacy Policy", terms_path %></h4>
   </div>
- 	
+  
   
 </div>
 

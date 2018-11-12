@@ -1,12 +1,14 @@
 <div class="row header_bg">
 
   <div class="col col-md-12 mt-5">
-  	<h4 align="right" class="header_text">Partners</h4>
-  	<h1 align="center" class="mt-5 header_text">DROPALLEY</h1>  	
-  	<h1 align="center" class="mt-5 header_text">Give your customers the most personalized online shopping experiene</h1>
+  	<h4 align="right" class="mr-4"><%= link_to "Partners", new_partner_path, class: "partner_link" %></h4>
+  	<h2 align="center">
+    	<%= link_to image_tag("logo.png", class: "img-fluid"), root_path %>	
+    </h2>	
+  	<h1 align="center" class="header_text">Give your customers the most personalized online shopping experiene</h1>
 
   	<div class="col-md-2 offset-md-5 mt-4">
-  		<%= link_to "Try & Buy Now", "https://www.google.com", class: "btn btn-primary btn-block btn-lg" %>
+  		<%= link_to "Try & Buy Now", "https://www.google.com", class: "btn btn_main btn-block btn-lg" %>
   	</div>
 
   </div>	  
@@ -76,6 +78,23 @@
 		<h4 class="mt-5">11.- Acceptance and Consent </h4>
 		<p>The User declares to have been informed of the conditions on protection of personal data, accepting and consenting to the treatment thereof by DROPALLEY, in the manner and for the purposes indicated in this Privacy Policy.</p>
 	</div>
+</div>
+
+<div class="row header_bg">
+
+  <div class="col col-md-12 mt-5">
+    <h1 align="center" class="mt-5 header_text">What are you waiting for? Be part of the e-commerce revolution.</h1>
+  </div>  
+
+  <div class="col-md-2 offset-md-5">
+  	<%= link_to "Try & Buy Now", "https://www.google.com", class: "btn btn_main btn-block btn-lg" %>	
+  </div>
+
+  <div class="col-md-12 header_text">
+    <h4 align="center"><%= link_to "Terms & Conditions", terms_path %> and <%= link_to "Privacy Policy", terms_path %></h4>
+  </div>
+  
+  
 </div>
 
 

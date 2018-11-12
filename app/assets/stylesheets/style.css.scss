@@ -6,7 +6,7 @@ body {
 }
 
 .header_bg{
-  background: url('header.jpg') no-repeat center center fixed; 
+  background-image: image-url('header.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -1,0 +1,76 @@
+<div class="row header_bg">
+
+  <div class="col col-md-12 mt-5">
+    <h4 align="right" class="mr-4"><%= link_to "Home", root_path, class: "partner_link" %></h4>
+    <h2 align="center">
+      <%= link_to image_tag("logo.png", class: "img-fluid"), root_path %> 
+    </h2>  
+    <h1 align="center" class="header_text">Get in touch and we will tell you how to works.</h1>
+
+
+  </div>    
+  
+</div>
+
+
+
+<!-- Sign Up Form -->
+
+
+
+<div class="row mt-5">
+  <div class="col-md-12">
+    <h1 align="center">Get In Touch</h1>
+  </div>
+</div>
+
+<%= form_for(@lead, :html => {class: "form", role: "form"}) do |f| %>
+  <div class="form-row mt-4">
+    <div class="form-group col-md-4 offset-md-4">
+      <%= f.text_field :company_name, class: "form-control", placeholder: "Company Name" %>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-4 offset-md-4">
+      <%= f.text_field :name, class: "form-control", placeholder: "Full Name" %>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-4 offset-md-4">
+      <%= f.email_field :email, class: "form-control", placeholder: "Email" %>
+    </div>
+  </div>
+
+  <div class="form-row">
+    
+    <div class="form-group col-md-4 offset-md-4">
+      <%= f.text_field :phone, class: "form-control", placeholder: "Mobile Number" %>
+    </div>
+
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-4 offset-md-4">
+      <%= f.submit "Give Me A Demo", class: "btn btn_1 btn-block btn-lg mb-5" %>
+    </div>
+  </div>
+ 
+
+<% end %>
+
+<!-- Footer -->
+
+<div class="row header_bg">
+
+  <div class="col col-md-12 mt-5">
+    <h1 align="center" class="mt-5 header_text">What are you waiting for? Be part of the e-commerce revolution.</h1>
+  </div>  
+
+  <div class="col-md-12 header_text">
+    <h4 align="center"><%= link_to "Terms & Conditions", terms_path %> and <%= link_to "Privacy Policy", terms_path %></h4>
+  </div>
+  
+  
+</div>

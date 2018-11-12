@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   get '/terms', to: 'pages#terms'
 
   resources :partners
-
+  resources :leads
 
 end
